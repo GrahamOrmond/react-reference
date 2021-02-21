@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tic Tac Toe - Tutorial</title>
+    <link rel="stylesheet" href="../src/css/index.css">
+  </head>
+  <body>
+
+    <div id="errors" class="error_div"></div>
+    <div id="root"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel" src="../src/js/game.js"></script>
+    <script type="text/babel" src="../src/js/controller.js"></script>
+  </body>
+</html>
